@@ -40,6 +40,37 @@ footer {
     border-radius: 187.5px;
     margin: 0 auto;
     position:relative;
-    top: 150px;
+    top: 50px;
     
 }
+/*https://cssgrid-generator.netlify.app/*/
+.parent {
+display: grid;
+grid-template-columns: repeat(10, 1fr);
+grid-template-rows: repeat(8, 1fr);
+grid-column-gap: 100px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 2 / 9 / 4; }
+.div2 { grid-area: 1 / 5 / 9 / 7; }
+.div3 { grid-area: 1 / 8 / 9 / 10; }
+
+.div1, .div2, .div3, .shadow {
+margin-top: 25px;
+width: 305px;
+height: 556px;
+flex-shrink: 0;
+background-color: antiquewhite;
+
+}
+
+.div2 {
+    margin-right: -100px;
+    margin-left: -80px;
+}
+
+
+
+
+
