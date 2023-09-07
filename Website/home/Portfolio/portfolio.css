@@ -1,4 +1,5 @@
 * {
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     margin: 0%;
 
@@ -41,6 +42,40 @@ footer {
     border-radius: 187.5px;
     margin: 0 auto;
     position:relative;
-    top: 75px;
+    top: 65px;
     
+    
+}
+
+
+
+
+
+.carousel-item {
+    
+    align-items: center;
+    overflow: hidden;
+}
+.carousel-item:hover {
+    opacity: 0.5;
+
+    
+}
+
+#space, #corgi, #mee {
+    height: 600px;
+    width: 800px;
+    overflow: hidden;
+    
+}
+
+#mainCarousel {
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 50px;
+   
+}
+
+h5 {
+ font-weight: bold;
 }
