@@ -15,15 +15,16 @@
 
 
 <body>
+  <div class="naviwavi">
     <header> 
-        <nav class="navigation"> 
-            <a class="home link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="/Project-1/index.html">Home</a>
-            <a class="about link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="/Project-1/About Me/aboutme.html">About Me</a>
-            <a class="resume link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="/Project-1/Resume/resume.html">Resume</a>
-            <a class="project link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="/Project-1/Portfolio/portfolio.html">Projects</a>
-        </nav>      
-    </header>
-
+         <nav class="navigation"> 
+             <a class="home link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="/index.html">Home</a>
+             <a class="about link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="/aboutMe/aboutme.html">About Me</a>
+             <a class="resume link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="/Resume/resume.html">Resume</a>
+             <a class="project link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="/Portfolio/">Projects</a>
+         </nav>      
+     </header>
+ </div>
  
 
     <div id="mainCarousel" class="carousel slide carousel-fade ">
@@ -33,29 +34,29 @@
           <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active" id="active">
             <img src="Screenshot 2023-09-06 at 4.32.57 PM.png" class="d-block w-100" id="space" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" id="caption">
               <h5>Space Battle</h5>
               <p> Using Javascript to create a turnbased game within the console. Using random num generation to create specific attack elements.</p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" id="active">
             <img src="corgi.jpeg" class="d-block w-100" id="corgi" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" id="caption">
               <h5>Corgi Carousel</h5>
               <p>Created a Corgio carousel using HTML, CSS, and JS</p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" id="active">
             <img src="Screenshot 2023-09-06 at 6.30.34 PM.png" class="d-block w-100" id="mee"alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" id="caption">
               <h5>About me website</h5>
               <p>Created an initial Porfolio site with HTML and CSS</p>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev" id="button">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
@@ -68,25 +69,26 @@
 
 
 
-    <footer>
-        <a class = insta id="instagram" href="https://www.instagram.com/winston_lucas/">
-            <button type="button" class="btn insta">
-                <img src="/Website/home/instagram.svg" alt="insta">
-            </button>
-        </a>
+      <div class="footiwooti">
+        <footer>
+            <a class = insta id="instagram" href="https://www.instagram.com/winston_lucas/">
+                <button type="button" class="btn insta">
+                    <img src="/instagram.svg" alt="insta" class = "instaBtn">
+                </button>
+            </a>
             
-        <a class = music id="spotify" href="https://open.spotify.com/artist/6Ie0IOvOIGGBA473cJdEBZ">
-            <button type="button" class="btn spot">
-                <img src="/Website/home/spotify.svg" alt="spot">
-            </button>
-        </a>
+            <a class = music id="spotify" href="https://open.spotify.com/artist/6Ie0IOvOIGGBA473cJdEBZ">
+                <button type="button" class="btn Spot">
+                    <img src="/spotify.svg" alt="spot" class = "spotBtn">
+                </button>
+            </a>
     
-        <a class = linked id="linkedin" href="https://www.linkedin.com/in/winstonlucas/"> 
-            <button type="button" class="btn linked">
-                <img src="/Website/home/linkedin.svg" alt="linked">
-            </button>
-        </a>
-    </footer>
-
+            <a class = linked id="linkedin" href="https://www.linkedin.com/in/winstonlucas/"> 
+                <button type="button" class="btn linked">
+                    <img src="/linkedin.svg" alt="linked" class = "linkInBtn">
+                </button>
+            </a>
+        </footer>
+    </div>
 </body>
 </html>
