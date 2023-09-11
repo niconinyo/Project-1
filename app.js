@@ -27,3 +27,17 @@ linkedBtn.addEventListener('mouseover', (height) => {
 linkedBtn.addEventListener('mouseout', (stop) => {
     linkedBtn.style.height = "16px";
 })
+
+const me = document.querySelector('.img');
+
+me.addEventListener('click', blur => {
+    me.style.filter = "blur(6px)"; 
+})
+
+me.addEventListener('dblclick', noblur => {
+    me.style.filter = "blur(0px)"; 
+})
+
+setTimeout(()=>{
+    alert(" Stop staring")     
+   },5000)
